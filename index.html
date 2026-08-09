@@ -1,4 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Zenforge — braço de criação do Grupo Diggo</title>
+<meta name="description" content="A Zenforge é o braço de criação de apps e sites com IA do Grupo Diggo. Especialistas em IA e engenharia de prompt entregam produtos melhores, mais rápido e por um custo bem menor.">
+<link rel="icon" type="image/png" href="assets/logo/zenforge-icon.png">
+<link rel="apple-touch-icon" href="assets/logo/zenforge-icon.png">
+<meta property="og:title" content="Zenforge — braço de criação do Grupo Diggo">
+<meta property="og:description" content="App e site forjados com IA. Especialistas em inteligência artificial e engenharia de prompt do Grupo Diggo.">
+<meta property="og:image" content="assets/logo/zenforge-social.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root {
     --ember: #E15A2A;
@@ -399,7 +412,6 @@
     flex-wrap: wrap;
     font-size: 13px;
   }
-  footer .wordmark { font-size: 15px; color: var(--cream); }
 
   @media (prefers-reduced-motion: reduce) {
     #forge-canvas { display: none; }
@@ -427,7 +439,25 @@
   @media (prefers-reduced-motion: reduce) {
     .wa-float { transition: none; }
   }
+
+  /* ---------- LOGO / VIDEO ---------- */
+  .logo-mark { height: 30px; width: auto; display: block; }
+  .hero-video-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: clamp(2rem, 6vw, 3rem);
+  }
+  .hero-video-wrap video {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 14px;
+    display: block;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+  }
+  footer .logo-mark { height: 26px; filter: brightness(0) invert(1); opacity: 0.92; }
 </style>
+</head>
+<body>
 
 <h2 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Landing page de apresentação da Zenforge, braço de criação de apps e sites com IA do Grupo Diggo</h2>
 
@@ -435,8 +465,13 @@
   <canvas id="forge-canvas"></canvas>
   <div class="wrap">
     <div class="hero-top">
-      <span class="wordmark">ZENFORGE</span>
+      <img class="logo-mark" src="assets/logo/zenforge-lockup.png" alt="Zenforge">
       <span class="eyebrow">Grupo Diggo</span>
+    </div>
+    <div class="hero-video-wrap">
+      <video autoplay muted loop playsinline aria-label="Animação da marca Zenforge">
+        <source src="assets/video/zenforge-reveal.mp4" type="video/mp4">
+      </video>
     </div>
     <h1>App e site<br>forjados<br><em>com IA</em></h1>
     <p class="hero-sub">A Zenforge é o braço de criação de apps e sites do Grupo Diggo. Combinamos especialistas em inteligência artificial com engenharia de prompt pra entregar produtos melhores, mais rápido e por um custo bem menor que o desenvolvimento tradicional.</p>
@@ -591,7 +626,7 @@
 
 <footer>
   <div class="wrap">
-    <span class="wordmark">ZENFORGE</span>
+    <img class="logo-mark" src="assets/logo/zenforge-lockup.png" alt="Zenforge">
     <span>Um braço do Grupo Diggo — Bahia, BR</span>
   </div>
 </footer>
@@ -659,3 +694,5 @@
     tick();
   })();
 </script>
+</body>
+</html>
