@@ -6,7 +6,7 @@ Este arquivo é carregado automaticamente em toda sessão neste repositório.
 
 - Nome: **Zenforge** — braço de criação de apps e sites com IA do Grupo Diggo.
 - Origem do nome: fusão de *Zenith* (ápice) + *Forge* (forjar/criar). Escolhido entre três finalistas (Foundra, Artifex, Diggo Forge) — Zenforge venceu por ser autoral, único e fácil de marcar.
-- Domínio: **zenforge.testaapp.live**
+- Domínio: **zenforge.grupodiggo.com.br** (migrado de `zenforge.testaapp.live` em 10/08/2026, quando o hub [[grupodiggo]] entrou no ar — ver aquele CLAUDE.md pra contexto completo da migração).
 - Repositório: https://github.com/GRUPODIGGO/zenforge (conta GRUPODIGGO, mesma usada no repo do TestaApp)
 - Hospedagem: **GitHub Pages** (gratuito) — não está no Lovable. Foi uma decisão explícita do Diogo (não queria criar projeto novo no Lovable pra isso).
 - Fundador exibido na página: Diogo B. Lima (mesma pessoa por trás do Grupo Diggo/TestaApp).
@@ -28,7 +28,7 @@ Identidade git usada nos commits deste repo: `Diogo B. Lima` / `skatista.mano.di
 
 ## DNS e domínio
 
-- Registro configurado pelo Diogo (fora do meu alcance — não sei em qual provedor/painel): `CNAME zenforge → grupodiggo.github.io`.
+- Registro configurado pelo Diogo (fora do meu alcance — não sei em qual provedor/painel): `CNAME zenforge → grupodiggo.github.io` (agora sob a zona `grupodiggo.com.br`, não mais `testaapp.live`).
 - **HTTPS não é imediato.** O GitHub emite o certificado automaticamente depois que o DNS propaga e é verificado — pode levar de minutos a algumas horas. Enquanto isso, só `http://` funciona; `https://` dá erro de certificado (`SEC_E_WRONG_PRINCIPAL` ou similar). Isso é esperado, não é bug.
 - **Importante sobre nomenclatura do GitHub Pages:** o valor `grupodiggo.github.io` é o destino de DNS padrão pra **qualquer** repositório com domínio customizado dentro da conta `GRUPODIGGO` — não é um repositório específico, e não muda se o nome do repo `zenforge` for alterado. Um repositório chamado literalmente `grupodiggo.github.io` (nome exato) está **reservado pra um futuro site raiz do Grupo Diggo** e não conflita com este projeto.
 
