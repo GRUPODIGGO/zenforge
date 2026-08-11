@@ -741,8 +741,30 @@
   }
 
   /* ---------- PILLARS ---------- */
-  .pillars { background: var(--plum); color: var(--cream); }
+  .pillars { background: var(--plum); color: var(--cream); position: relative; overflow: hidden; }
+  .pillars .wrap { position: relative; z-index: 1; }
   .pillars .section-head p { color: var(--ember-line); }
+  .pillars-visual {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 480px;
+    max-height: 60%;
+    object-fit: cover;
+    object-position: left center;
+    z-index: 0;
+    display: none;
+    pointer-events: none;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 26%), linear-gradient(to bottom, black 60%, transparent 100%);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(to right, transparent 0%, black 26%), linear-gradient(to bottom, black 60%, transparent 100%);
+    mask-composite: intersect;
+  }
+  @media (min-width: 900px) {
+    .pillars-visual { display: block; }
+    .pillars-head { max-width: 50%; }
+  }
   .pillar-tags {
     display: flex;
     flex-wrap: wrap;
@@ -1199,8 +1221,9 @@
 </section>
 
 <section class="pillars">
+  <img class="pillars-visual" src="assets/img/testaapp-sourceapp.jpg" alt="" aria-hidden="true">
   <div class="wrap">
-    <div class="section-head">
+    <div class="section-head pillars-head">
       <span class="eyebrow" style="color:var(--gold);">O que orienta o projeto</span>
       <h2 style="margin-top:0.9rem;">Seu projeto nasce do resultado que você quer alcançar</h2>
     </div>
