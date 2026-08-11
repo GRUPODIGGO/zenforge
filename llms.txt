@@ -1,0 +1,17 @@
+# Zenforge
+
+> Unidade de criação de apps e sites com Inteligência Artificial do Grupo Diggo. Apps sob medida, sites profissionais e integrações de IA, entregues em dias — com amostra grátis antes do primeiro pagamento.
+
+A Zenforge combina especialistas em inteligência artificial e engenharia de prompt pra construir aplicativos e sites, entregando produtos mais rápido e por um custo menor que o desenvolvimento tradicional.
+
+## Principais páginas
+
+- [Página inicial](https://zenforge.grupodiggo.com.br/): apresentação da Zenforge, os três serviços (apps sob medida, sites profissionais, integrações de IA), o processo de trabalho em 6 etapas, a política de pagamento (1ª amostra grátis, entrada de 30% parcelável em até 12x no cartão, restante na entrega também parcelável em até 12x, ajustes pequenos sem contagem rígida) e perguntas frequentes.
+
+## Sobre o Grupo Diggo
+
+A Zenforge é uma das unidades do Grupo Diggo, que também inclui o TestaApp (testes reais de aplicativos com pessoas de verdade antes do lançamento nas lojas) e o BuildSpeed A.I. (criação de aplicativos direto do celular, sem precisar de computador). Mais informações em https://grupodiggo.com.br.
+
+## Contato
+
+WhatsApp: https://wa.me/5573988398108
